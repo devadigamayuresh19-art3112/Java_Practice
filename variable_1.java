@@ -13,7 +13,7 @@ public class variable_1
        float num3=sc.nextFloat();
        float num4=sc.nextFloat();
        System.out.println(num3+num4);
-
+       sc.close();
     }
     
 }

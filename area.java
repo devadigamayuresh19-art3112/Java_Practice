@@ -9,6 +9,6 @@ public class area
       float rad=sc.nextFloat();
       final float PI = 3.14F;
       System.out.println(PI*rad*rad);
-
+      sc.close();
    } 
 }

@@ -18,5 +18,6 @@ public class table
       System.out.println(num*8);
       System.out.println(num*9);
       System.out.println(num*10);
+      sc.close();
     }
 }
