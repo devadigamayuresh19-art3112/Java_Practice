@@ -12,6 +12,9 @@ public class num{
         }else{
             System.out.println("Number is Odd");
         }
+<<<<<<< HEAD:num.java
         sc.close();
+=======
+>>>>>>> a34cafb (New Problem Solve):Java_practice/num.java
     }
 }

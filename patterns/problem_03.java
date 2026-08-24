@@ -18,7 +18,10 @@ public class problem_03 {
         }
         System.out.println();
       }
+<<<<<<< HEAD:patterns/problem_03.java
       sc.close();
+=======
+>>>>>>> a34cafb (New Problem Solve):Java_practice/patterns/problem_03.java
     }
  } 
 

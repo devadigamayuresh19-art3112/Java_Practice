@@ -23,6 +23,9 @@ public class calculator{
                 
                
         }
+<<<<<<< HEAD:calculator.java
         sc.close();
+=======
+>>>>>>> a34cafb (New Problem Solve):Java_practice/calculator.java
     }
 }

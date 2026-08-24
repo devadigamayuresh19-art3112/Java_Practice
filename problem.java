@@ -19,6 +19,9 @@ public class problem {
             i++;
             count=0;
         }
+<<<<<<< HEAD:problem.java
         sc.close();
+=======
+>>>>>>> a34cafb (New Problem Solve):Java_practice/problem.java
     }
 }
