@@ -26,6 +26,6 @@ public class problem_05 {
             }
             
         }
-
+         sc.close();
     }
 }

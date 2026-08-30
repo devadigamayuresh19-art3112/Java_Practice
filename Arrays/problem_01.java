@@ -14,5 +14,6 @@ public class problem_01 {
             System.out.println(name[i]);
         }
 
+sc.close();
     }
 }

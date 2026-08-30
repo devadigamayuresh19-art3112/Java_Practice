@@ -1,46 +1,32 @@
-<<<<<<< HEAD:Functions/problem_02.java
-//Program to calculate Factorial of a NUmber :
-
-import java.util.*;
-public class problem_02 {
-    public static int fact(int a){
-        int fact=1;
-        for (int i=1;i<=a;i++){
-            fact*=i;
-
-        }
-        return fact;
-
-    }
-    public static void main(String[] args) {
-        System.out.println("Enter A Number");
-        Scanner sc=new Scanner(System.in);
-        int num=sc.nextInt();
-        System.out.println("Factorial of " + num + "is" + fact(num));
-    }
-=======
 package Functions;
-
 import java.util.Scanner;
 
 public class problem_02 {
-    public static void even(int a){
-        if(a==0){
-            System.out.println("Zero Number");
+
+    // Function to calculate factorial using a loop
+    public static long calculateFactorial(int n) {
+        if (n < 0) {
+            System.out.println("Factorial is not defined for negative numbers.");
+            return -1;
         }
-        else if (a%2==0){
-            System.out.println("Even Number");
+
+        long fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
         }
-        else{
-            System.out.println("Odd Number");
-        }
+        return fact;
     }
+
     public static void main(String[] args) {
-        System.out.println("Enter A Number");
-        Scanner sc= new Scanner(System.in);
-        int num= sc.nextInt();
-        even(num);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        long result = calculateFactorial(num);
+        if (result != -1) {
+            System.out.println("Factorial of " + num + " is: " + result);
+        }
+
         sc.close();
-}
->>>>>>> a34cafb (New Problem Solve):Java_practice/Functions/problem_02.java
+    }
 }

@@ -18,6 +18,7 @@ public class Update_bit {
             int num1= ~(Bitmask) & n;
             System.out.println(num1);
         }
+        sc.close();
 
     }
 }

@@ -11,9 +11,8 @@ public class even_no_loop {
                 System.out.print(i+" ");
             }
         }
-<<<<<<< HEAD:even_no_loop.java
+
         sc.close();
-=======
->>>>>>> a34cafb (New Problem Solve):Java_practice/even_no_loop.java
+
     }
 }

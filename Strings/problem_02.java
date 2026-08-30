@@ -11,6 +11,6 @@ public class problem_02 {
         String original=sc.next();
         String result= original.replace('e', 'i');
         System.err.println(result);
-        
+        sc.close();
     }
 }

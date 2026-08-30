@@ -24,6 +24,6 @@ public class problem_03 {
         else{
             System.out.println("Not sorted");
         }
-
+sc.close();
     }
 }

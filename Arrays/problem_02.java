@@ -26,5 +26,7 @@ public class problem_02 {
         System.out.println("Maximum Number is " + max);
         System.out.println("Minimum Number is " + min);
 
+
+sc.close();
     }
 }

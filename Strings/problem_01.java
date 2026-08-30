@@ -22,5 +22,6 @@ public class problem_01 {
         }
 
         System.out.println("Total Length: " + count);
+        sc.close();
     }
 }

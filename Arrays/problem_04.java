@@ -21,7 +21,7 @@ public class problem_04 {
             }
             System.err.println();
         }
-
+sc.close();
     }
 }
 

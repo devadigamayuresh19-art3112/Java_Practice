@@ -1,9 +1,6 @@
 package Advanced_patterns;
-<<<<<<< HEAD:Advanced_patterns/problem_01.java
 
-=======
-import java.util.*;
->>>>>>> a34cafb (New Problem Solve):Java_practice/Advanced_patterns/problem_01.java
+
 public class problem_01 {
     public static void main(String[] args) {
         int rows=5;
@@ -33,9 +30,7 @@ public class problem_01 {
             System.out.println();
 
         }
-<<<<<<< HEAD:Advanced_patterns/problem_01.java
-        
-=======
->>>>>>> a34cafb (New Problem Solve):Java_practice/Advanced_patterns/problem_01.java
+
+
     }
 }

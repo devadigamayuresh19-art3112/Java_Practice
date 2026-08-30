@@ -10,9 +10,8 @@ public class age{
     }else{
         System.out.println("You Are Not An Adult");
     }
-<<<<<<< HEAD:age.java
+
     sc.close();
-=======
->>>>>>> a34cafb (New Problem Solve):Java_practice/age.java
+
     }
 }

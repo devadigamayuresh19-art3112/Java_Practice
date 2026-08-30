@@ -13,6 +13,6 @@ public class problem_04 {
             System.out.print(original.charAt(i));
         }
         System.out.println();
-        
+        sc.close();
     }
 }

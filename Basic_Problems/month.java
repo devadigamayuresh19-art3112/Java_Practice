@@ -35,9 +35,7 @@ public class month{
                 
                
         }
-<<<<<<< HEAD:month.java
+
         sc.close();
-=======
->>>>>>> a34cafb (New Problem Solve):Java_practice/month.java
     }
 }

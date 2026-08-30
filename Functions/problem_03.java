@@ -1,44 +1,42 @@
-<<<<<<< HEAD:Functions/problem_03.java
-//Program to check number is prime or not using functions:
-import java.util.*;
-public class problem_03 {
-    public static void prime(int a){
-           int count=0;
-           for (int i=1;i<=a;i++){
-            if(a%i==0){
-                count+=1;
-            }
-           }
-           if(count==2){
-            System.out.println("Number is Prime");
-           }
-           else{
-            System.out.println("Number is Not Prime");
-           }
-    }
-    public static void main(String[] args) {
-        System.out.println("Enter A Number :");
-        Scanner sc=new Scanner(System.in);
-        int num=sc.nextInt();
-        prime(num);
-    }
-=======
 package Functions;
-
 import java.util.Scanner;
 
-public class problem_03 {
-    public static void table(int a){
-        for (int i=1;i<=10;i++){
-            System.out.println(a +" "+ "X" +" " + i + " "+"=" +" "+ a*i);
+public class problem_03{
+
+    // Function 1: Logic to check if a number is prime
+    public static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        if (n <= 3) return true;
+        if (n % 2 == 0 || n % 3 == 0) return false;
+
+        // Check factors up to square root of n
+        for (int i = 5; i * i <= n; i += 6) {
+            if (n % i == 0 || n % (i + 2) == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    // Function 2: Helper function to display the result
+    public static void checkAndDisplay(int number) {
+        if (isPrime(number)) {
+            System.out.println(number + " is a Prime Number.");
+        } else {
+            System.out.println(number + " is NOT a Prime Number.");
         }
     }
-     public static void main(String[] args) {
-        System.out.println("Enter A Number");
-        Scanner sc= new Scanner(System.in);
-        int num= sc.nextInt();
-        table(num);
+
+    // Main Function
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        // Calling the function
+        checkAndDisplay(num);
+
         sc.close();
-}
->>>>>>> a34cafb (New Problem Solve):Java_practice/Functions/problem_03.java
+    }
 }

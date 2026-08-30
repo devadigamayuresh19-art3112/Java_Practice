@@ -20,6 +20,6 @@ public class problem_03 {
             }            
         }
         System.err.println(result);
-        
+        sc.close();
     }
 }
